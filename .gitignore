@@ -3,12 +3,10 @@ dist
 *.py[oc]
 dist-newstyle
 /data
-etc
 .venv
 .tox
 .mypy_cache
 .env
-.secrets
 docker-compose.yml
 .vscode
 .hie

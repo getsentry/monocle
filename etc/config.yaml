@@ -1,0 +1,151 @@
+---
+workspaces:
+  - name: monocle
+    search_aliases:
+      - name: bots
+        alias: '(author:"dependabot" or author:"getsentry-release" or author:"github-actions[bot]" or author:"snyk-bot" or author:"getsentry-bot" or author:"getsantry[bot]" or author:"dependabot[bot]" or author:"codecov" or author:"github-actions")'
+    crawlers:
+      - name: github-getsentry
+        provider:
+          github_organization: getsentry
+        update_since: '2023-01-01'
+    idents:
+        # WEB SDK FRONTEND
+      - ident: Francesco Novy
+        aliases:
+          - github.com/mydea
+        groups:
+          - Web SDK Frontend
+          - Web SDK
+      - ident: Lukas Stracke
+        aliases:
+          - github.com/Lms24
+        groups:
+          - Web SDK Frontend
+          - Web SDK
+      - ident: Abhi Prasad
+        aliases:
+          - github.com/AbhiPrasad
+        groups:
+          - Web SDK Frontend
+          - Web SDK
+      - ident: Luca Forstner
+        aliases:
+          - github.com/lforst
+        groups:
+          - Web SDK Frontend
+          - Web SDK
+      # WEB SDK BACKEND
+      - ident: Stefan Jandl
+        aliases:
+          - github.com/bitsandfoxes
+        groups:
+          - Web SDK Backend
+          - Web SDK
+      - ident: Neel Shah
+        aliases:
+          - github.com/sl0thentr0py
+        groups:
+          - Web SDK Backend
+          - Web SDK
+      - ident: Anton Pirker
+        aliases:
+          - github.com/antonpirker
+        groups:
+          - Web SDK Backend
+          - Web SDK
+      - ident: Ivana Kellyerova
+        aliases:
+          - github.com/sentrivana
+        groups:
+          - Web SDK Backend
+          - Web SDK
+      - ident: Daniel Sozke
+        aliases:
+          - github.com/szokeasaurusrex
+        groups:
+          - Web SDK Backend
+          - Web SDK
+      - ident: Alexander Dinauer
+        aliases:
+          - github.com/adinauer
+        groups:
+          - Web SDK Backend
+          - Web SDK
+      - ident: Michael Hoffmann
+        aliases:
+          - github.com/cleptric
+        groups:
+          - Web SDK Backend
+          - Web SDK
+      # TELEMTRY EXPERIENCE
+      - ident: Priscila Oliveira
+        aliases:
+          - github.com/priscilawebdev
+        groups:
+          - Telemetry Experience
+      - ident: Ogi Bostjancic
+        aliases:
+          - github.com/obostjancic
+        groups:
+          - Telemetry Experience
+      - ident: Arthur Knaus
+        aliases:
+          - github.com/ArthurKnaus
+        groups:
+          - Telemetry Experience
+      - ident: Riccardo Busetti
+        aliases:
+          - github.com/iambriccardo
+        groups:
+          - Telemetry Experience
+      - ident: Riccardo Busetti
+        aliases:
+          - github.com/iambriccardo
+        groups:
+          - Telemetry Experience
+      # MOBILE SDK
+      - ident: Krystof Woldrich
+        aliases:
+          - github.com/krystofwoldrich
+        groups:
+          - Mobile SDK Cross
+          - Mobile SDK
+      - ident: Gino Buenaflor
+        aliases:
+          - github.com/buenaflor
+        groups:
+          - Mobile SDK Cross
+          - Mobile SDK
+      - ident: Stefano Siano
+        aliases:
+          - github.com/stefanosiano
+        groups:
+          - Mobile SDK Cross
+          - Mobile SDK
+      - ident: Roman Zavarnitsyn
+        aliases:
+          - github.com/romtsn
+        groups:
+          - Mobile SDK Core
+          - Mobile SDK
+      - ident: Dhiogo Brustolin
+        aliases:
+          - github.com/brustolin
+        groups:
+          - Mobile SDK Core
+          - Mobile SDK
+      - ident: Philipp Hofmann
+        aliases:
+          - github.com/philipphofmann
+        groups:
+          - Mobile SDK Core
+          - Mobile SDK
+      - ident: Markus Hintersteiner
+        aliases:
+          - github.com/markushi
+        groups:
+          - Mobile SDK Core
+          - Mobile SDK
+
+          
