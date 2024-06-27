@@ -4,12 +4,19 @@ All notable changes to this project will be documented in this file.
 ## [master]
 
 ### Added
-
-- [api] add http_request and http_request_error metrics counter.
-
 ### Changed
 ### Removed
 ### Fixed
+
+## [1.11.1] - 2024-02-13
+
+### Added
+
+- [api] add http_request and http_request_error metrics counter.
+
+### Fixed
+
+- [janitor] `update-idents` unables to process when some Error docs are in the index.
 
 ## [1.11.0] - 2024-01-12
 
