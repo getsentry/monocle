@@ -10,142 +10,2553 @@ workspaces:
           github_organization: getsentry
         update_since: '2023-01-01'
     idents:
-        # WEB SDK FRONTEND
-      - ident: Francesco Novy
+      - ident: mitsuhiko
         aliases:
-          - github.com/mydea
+          - github.com/mitsuhiko
         groups:
-          - Web SDK Frontend
-          - Web SDK
-      - ident: Lukas Stracke
+          - python
+          - security
+          - app
+          - GitHub Admins
+          - Codeowners
+          - owners-migrations
+          - owners-snuba
+          - owners-python-build
+          - snuba-maintainers
+          - metrics
+          - Profiling
+          - Engineering Stewardship
+          - DDM
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+          - SDKs
+          - javascript
+          - releng
+          - Release Approvers
+          - client-infra admin
+          - Team Web SDK Backend
+          - Product Owners
+      - ident: dcramer
         aliases:
-          - github.com/Lms24
+          - github.com/dcramer
         groups:
-          - Web SDK Frontend
-          - Web SDK
-      - ident: Abhi Prasad
+          - python
+          - security
+          - app
+          - GitHub Admins
+          - Codeowners
+          - owners-legal
+          - product-managers
+          - Engineering
+          - Staff
+          - SDKs
+      - ident: untitaker
         aliases:
-          - github.com/AbhiPrasad
+          - github.com/untitaker
         groups:
-          - Web SDK Frontend
-          - Web SDK
-      - ident: Luca Forstner
+          - python
+          - app
+          - sns
+          - Codeowners
+          - owners-snuba
+          - owners-python-build
+          - python-typing
+          - metrics
+          - owners-redis-tools
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+          - SDKs
+      - ident: evanpurkhiser
         aliases:
-          - github.com/lforst
+          - github.com/evanpurkhiser
         groups:
-          - Web SDK Frontend
-          - Web SDK
-      # WEB SDK BACKEND
-      - ident: Stefan Jandl
+          - go
+          - app
+          - growth
+          - app-frontend
+          - app-backend
+          - Codeowners
+          - owners-js-build
+          - owners-python-build
+          - owners-sentry-dev
+          - python-typing
+          - Engineering Stewardship
+          - owners-js-deps
+          - Crons
+          - Engineering
+          - Staff
+          - SDKs
+      - ident: mwarkentin
         aliases:
-          - github.com/bitsandfoxes
+          - github.com/mwarkentin
         groups:
-          - Web SDK Backend
-          - Web SDK
-      - ident: Neel Shah
+          - ops
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: rgibert
         aliases:
-          - github.com/sl0thentr0py
+          - github.com/rgibert
         groups:
-          - Web SDK Backend
-          - Web SDK
-      - ident: Anton Pirker
+          - ops
+          - single-tenant
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: tonyo
         aliases:
-          - github.com/antonpirker
+          - github.com/tonyo
         groups:
-          - Web SDK Backend
-          - Web SDK
-      - ident: Ivana Kellyerova
+          - ops
+          - Codeowners
+          - owners-qe
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+          - releng
+      - ident: oioki
         aliases:
-          - github.com/sentrivana
+          - github.com/oioki
         groups:
-          - Web SDK Backend
-          - Web SDK
-      - ident: Daniel Sozke
+          - ops
+          - security
+          - app
+          - metrics
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: beezz
         aliases:
-          - github.com/szokeasaurusrex
+          - github.com/beezz
         groups:
-          - Web SDK Backend
-          - Web SDK
-      - ident: Alexander Dinauer
+          - ops
+          - Codeowners
+          - owners-migrations
+          - Processing
+          - owners-redis-tools
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+      - ident: fpacifici
         aliases:
-          - github.com/adinauer
+          - github.com/fpacifici
         groups:
-          - Web SDK Backend
-          - Web SDK
-      - ident: Michael Hoffmann
+          - ops
+          - Codeowners
+          - snuba-maintainers
+          - python-typing
+          - Engineering Stewardship
+          - owners-redis-tools
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+          - Release Approvers
+      - ident: lynnagara
         aliases:
-          - github.com/cleptric
+          - github.com/lynnagara
         groups:
-          - Web SDK Backend
-          - Web SDK
-      # TELEMTRY EXPERIENCE
-      - ident: Priscila Oliveira
+          - ops
+          - app
+          - Codeowners
+          - snuba-maintainers
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: dmajere
         aliases:
-          - github.com/priscilawebdev
+          - github.com/dmajere
         groups:
-          - Telemetry Experience
-      - ident: Ogi Bostjancic
+          - ops
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: gi0baro
         aliases:
-          - github.com/obostjancic
+          - github.com/gi0baro
         groups:
-          - Telemetry Experience
-      - ident: Arthur Knaus
+          - ops
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: maxwelllwang
+        aliases:
+          - github.com/maxwelllwang
+        groups:
+          - ops
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: ghengiskhanh
+        aliases:
+          - github.com/ghengiskhanh
+        groups:
+          - ops
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: nirajdewani
+        aliases:
+          - github.com/nirajdewani
+        groups:
+          - ops
+          - Data
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: victoria-yining-huang
+        aliases:
+          - github.com/victoria-yining-huang
+        groups:
+          - ops
+          - Data
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: dbennett-sentry
+        aliases:
+          - github.com/dbennett-sentry
+        groups:
+          - ops
+          - security
+          - Codeowners
+          - snuba-maintainers
+          - dev-infra
+          - python-typing
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+          - Release Approvers
+      - ident: bmckerry
+        aliases:
+          - github.com/bmckerry
+        groups:
+          - ops
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: ellisonmarks
+        aliases:
+          - github.com/ellisonmarks
+        groups:
+          - ops
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: kneeyo1
+        aliases:
+          - github.com/kneeyo1
+        groups:
+          - ops
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: jredmond-sentry
+        aliases:
+          - github.com/jredmond-sentry
+        groups:
+          - ops
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: Jeffreyhung
+        aliases:
+          - github.com/Jeffreyhung
+        groups:
+          - security
+          - Engineering
+          - Staff
+      - ident: mdtro
+        aliases:
+          - github.com/mdtro
+        groups:
+          - security
+          - Engineering
+          - Staff
+      - ident: jeff-a-holland-codecov
+        aliases:
+          - github.com/jeff-a-holland-codecov
+        groups:
+          - security
+          - Engineering
+          - Staff
+      - ident: zkrause-sentry
+        aliases:
+          - github.com/zkrause-sentry
+        groups:
+          - security
+          - it
+          - Engineering
+          - Staff
+      - ident: geoffg-sentry
+        aliases:
+          - github.com/geoffg-sentry
+        groups:
+          - security
+          - Engineering
+          - Staff
+      - ident: mrduncan
+        aliases:
+          - github.com/mrduncan
+        groups:
+          - app
+          - Revenue
+          - Issues
+          - Hybrid-Cloud
+          - "Product Owners: Settings"
+          - "Product Owners: Settings - General"
+          - "Product Owners: Issues"
+          - "Product Owners: Footer"
+          - "Product Owners: Projects - Project Details"
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: markstory
+        aliases:
+          - github.com/markstory
+        groups:
+          - app
+          - app-frontend
+          - app-backend
+          - Codeowners
+          - owners-migrations
+          - Revenue
+          - Engineering Stewardship
+          - Hybrid-Cloud
+          - Engineering
+          - Staff
+      - ident: armenzg
+        aliases:
+          - github.com/armenzg
+        groups:
+          - app
+          - Issues
+          - Engineering
+          - Staff
+      - ident: mikejihbe
+        aliases:
+          - github.com/mikejihbe
+        groups:
+          - app
+          - Revenue
+          - Issues
+          - Hybrid-Cloud
+          - "Product Owners: Settings"
+          - "Product Owners: Settings - Spike Protection"
+          - "Product Owners: Settings - General"
+          - "Product Owners: Stats"
+          - "Product Owners: Issues"
+          - "Product Owners: Footer"
+          - "Product Owners: Settings - Spend Allocation"
+          - "Product Owners: Projects - Project Details"
+          - "Product Owners: Settings - Subscription"
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: billyvg
+        aliases:
+          - github.com/billyvg
+        groups:
+          - app
+          - GitHub Admins
+          - app-frontend
+          - Codeowners
+          - owners-js-build
+          - Emerging Technology
+          - Replay
+          - Replay Frontend
+          - Replay SDK
+          - Feedback
+          - Feedback SDK
+          - Feedback Frontend
+          - Replay SDK - Web
+          - Replay SDK - Mobile
+          - Engineering
+          - Staff
+      - ident: dashed
+        aliases:
+          - github.com/dashed
+        groups:
+          - app
+          - app-frontend
+          - app-backend
+          - Codeowners
+          - Revenue
+          - Hybrid-Cloud
+          - Engineering
+          - Staff
+      - ident: ryan953
+        aliases:
+          - github.com/ryan953
+        groups:
+          - app
+          - app-frontend
+          - Codeowners
+          - owners-js-build
+          - Emerging Technology
+          - Replay
+          - owners-js-deps
+          - Replay Frontend
+          - Feedback
+          - Feedback Frontend
+          - Engineering
+          - Staff
+      - ident: bcoe
+        aliases:
+          - github.com/bcoe
+        groups:
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - product-managers
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: alexjillard
+        aliases:
+          - github.com/alexjillard
+        groups:
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+          - Release Approvers
+          - Product Owners
+      - ident: phacops
+        aliases:
+          - github.com/phacops
+        groups:
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Profiling
+          - Engineering Stewardship
+          - Engineering
+          - Staff
+          - infrastructure
+          - Gib Potato
+      - ident: indragiek
+        aliases:
+          - github.com/indragiek
+        groups:
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Profiling
+          - Replay
+          - Replay Frontend
+          - Replay Backend
+          - Replay SDK
+          - "Product Owners: Profiling"
+          - "Product Owners: Discover"
+          - "Product Owners: Performance"
+          - "Product Owners: Dashboards"
+          - Feedback
+          - Feedback SDK
+          - Feedback Frontend
+          - Feedback Backend
+          - Replay SDK - Web
+          - Replay SDK - Mobile
+          - "Product Owners: Insights"
+          - Engineering
+          - Staff
+          - Release Approvers
+          - Product Owners
+      - ident: mjq
+        aliases:
+          - github.com/mjq
+        groups:
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: gggritso
+        aliases:
+          - github.com/gggritso
+        groups:
+          - app
+          - app-frontend
+          - Codeowners
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - owners-js-deps
+          - Engineering
+          - Staff
+      - ident: gaprl
+        aliases:
+          - github.com/gaprl
+        groups:
+          - app
+          - app-frontend
+          - Crons
+          - "Product Owners: Crons"
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: scttcper
+        aliases:
+          - github.com/scttcper
+        groups:
+          - app
+          - app-frontend
+          - Codeowners
+          - Issues
+          - owners-js-deps
+          - Engineering
+          - Staff
+      - ident: jan-auer
+        aliases:
+          - github.com/jan-auer
+        groups:
+          - app
+          - Codeowners
+          - metrics
+          - owners-qe
+          - Engineering Stewardship
+          - telemetry-experience
+          - Ingest
+          - Processing
+          - DDM
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+          - SDKs
+          - javascript
+          - releng
+          - Release Approvers
+          - client-infra admin
+          - Product Owners
+      - ident: jjbayer
+        aliases:
+          - github.com/jjbayer
+        groups:
+          - app
+          - Codeowners
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - metrics
+          - Ingest
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+      - ident: brianthi
+        aliases:
+          - github.com/brianthi
+        groups:
+          - app
+          - Revenue
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: leedongwei
+        aliases:
+          - github.com/leedongwei
+        groups:
+          - app
+          - app-frontend
+          - Codeowners
+          - Enterprise
+          - owners-api
+          - Hybrid-Cloud
+          - "Product Owners: Settings - Developer Settings"
+          - "Product Owners: Settings - Integrations"
+          - "Product Owners: Releases"
+          - "Product Owners: Settings - Members"
+          - "Product Owners: Settings - Auth"
+          - "Product Owners: Settings - Repositories"
+          - "Product Owners: Sign In"
+          - "Product Owners: Settings - Projects"
+          - "Product Owners: Alerts"
+          - "Product Owners: Settings - Teams"
+          - "Product Owners: Settings - Security & Privacy"
+          - "Product Owners: APIs"
+          - Ecosystem
+          - Core Product, Foundations
+          - Alerts & Notifications
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: JoshFerge
+        aliases:
+          - github.com/JoshFerge
+        groups:
+          - app
+          - app-backend
+          - Codeowners
+          - python-typing
+          - Issues
+          - owners-api
+          - Emerging Technology
+          - Replay
+          - Replay Backend
+          - Feedback
+          - Feedback Backend
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: vartec
+        aliases:
+          - github.com/vartec
+        groups:
+          - app
+          - app-backend
+          - Issues
+          - Engineering
+          - Staff
+      - ident: evanh
+        aliases:
+          - github.com/evanh
+        groups:
+          - app
+          - sns
+          - app-backend
+          - Codeowners
+          - owners-snuba
+          - snuba-maintainers
+          - python-typing
+          - DDM
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: wmak
+        aliases:
+          - github.com/wmak
+        groups:
+          - app
+          - app-backend
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: doralchan
+        aliases:
+          - github.com/doralchan
+        groups:
+          - app
+          - Design
+          - app-frontend
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: GabeVillalobos
+        aliases:
+          - github.com/GabeVillalobos
+        groups:
+          - app
+          - Issues
+          - Hybrid-Cloud
+          - Engineering
+          - Staff
+      - ident: cmanallen
+        aliases:
+          - github.com/cmanallen
+        groups:
+          - app
+          - app-backend
+          - Emerging Technology
+          - Replay
+          - Crons
+          - Replay Backend
+          - Feedback
+          - Feedback Backend
+          - Engineering
+          - Staff
+      - ident: k-fish
+        aliases:
+          - github.com/k-fish
+        groups:
+          - app
+          - app-frontend
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: wedamija
+        aliases:
+          - github.com/wedamija
+        groups:
+          - app
+          - app-backend
+          - Codeowners
+          - owners-migrations
+          - owners-python-build
+          - python-typing
+          - Issues
+          - Engineering Stewardship
+          - Crons
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: Jesse-Box
+        aliases:
+          - github.com/Jesse-Box
+        groups:
+          - app
+          - Design
+          - metrics
+          - telemetry-experience
+          - Engineering
+          - Staff
+      - ident: shellmayr
+        aliases:
+          - github.com/shellmayr
+        groups:
+          - app
+          - app-backend
+          - telemetry-experience
+          - DDM
+          - Engineering
+          - Staff
+      - ident: ArthurKnaus
         aliases:
           - github.com/ArthurKnaus
         groups:
-          - Telemetry Experience
-      - ident: Riccardo Busetti
+          - app
+          - app-frontend
+          - telemetry-experience
+          - Engineering
+          - Staff
+      - ident: matejminar
+        aliases:
+          - github.com/matejminar
+        groups:
+          - app
+          - app-frontend
+          - metrics
+          - telemetry-experience
+          - "Product Owners: Projects - Project Creation"
+          - DDM
+          - "Product Owners: DDM"
+          - Engineering
+          - Staff
+          - client-infra
+          - Product Owners
+      - ident: JonasBa
+        aliases:
+          - github.com/JonasBa
+        groups:
+          - app
+          - app-frontend
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Profiling
+          - Engineering Stewardship
+          - Engineering
+          - Staff
+      - ident: davidenwang
+        aliases:
+          - github.com/davidenwang
+        groups:
+          - app
+          - app-frontend
+          - Crons
+          - Engineering
+          - Staff
+      - ident: Zylphrex
+        aliases:
+          - github.com/Zylphrex
+        groups:
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Profiling
+          - Engineering
+          - Staff
+      - ident: malwilley
+        aliases:
+          - github.com/malwilley
+        groups:
+          - app
+          - app-frontend
+          - Codeowners
+          - Issues
+          - owners-js-deps
+          - Engineering
+          - Staff
+      - ident: lobsterkatie
+        aliases:
+          - github.com/lobsterkatie
+        groups:
+          - app
+          - Issues
+          - Engineering
+          - Staff
+      - ident: MeredithAnya
+        aliases:
+          - github.com/MeredithAnya
+        groups:
+          - app
+          - sns
+          - app-backend
+          - Codeowners
+          - owners-snuba
+          - snuba-maintainers
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: iambriccardo
         aliases:
           - github.com/iambriccardo
         groups:
-          - Telemetry Experience
-      - ident: Riccardo Busetti
+          - app
+          - Codeowners
+          - Ingest
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: snigdhas
         aliases:
-          - github.com/iambriccardo
+          - github.com/snigdhas
         groups:
-          - Telemetry Experience
-      # MOBILE SDK
-      - ident: Krystof Woldrich
+          - app
+          - Issues
+          - Engineering
+          - Staff
+      - ident: 0Calories
         aliases:
-          - github.com/krystofwoldrich
+          - github.com/0Calories
         groups:
-          - Mobile SDK Cross
-          - Mobile SDK
-      - ident: Gino Buenaflor
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: AbhiPrasad
         aliases:
-          - github.com/buenaflor
+          - github.com/AbhiPrasad
         groups:
-          - Mobile SDK Cross
-          - Mobile SDK
-      - ident: Stefano Siano
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Frontend
+      - ident: narsaynorath
         aliases:
-          - github.com/stefanosiano
+          - github.com/narsaynorath
         groups:
-          - Mobile SDK Cross
-          - Mobile SDK
-      - ident: Roman Zavarnitsyn
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: vgrozdanic
         aliases:
-          - github.com/romtsn
+          - github.com/vgrozdanic
         groups:
-          - Mobile SDK Core
-          - Mobile SDK
-      - ident: Dhiogo Brustolin
+          - app
+          - app-frontend
+          - app-backend
+          - telemetry-experience
+          - DDM
+          - Engineering
+          - Staff
+      - ident: RyanSkonnord
         aliases:
-          - github.com/brustolin
+          - github.com/RyanSkonnord
         groups:
-          - Mobile SDK Core
-          - Mobile SDK
-      - ident: Philipp Hofmann
+          - app
+          - app-backend
+          - Codeowners
+          - Hybrid-Cloud
+          - Ecosystem
+          - Core Product, Foundations
+          - Engineering
+          - Staff
+      - ident: ale-cota
         aliases:
-          - github.com/philipphofmann
+          - github.com/ale-cota
         groups:
-          - Mobile SDK Core
-          - Mobile SDK
-      - ident: Markus Hintersteiner
+          - app
+          - telemetry-experience
+          - "Product Owners: SDKs - Web Backend"
+          - "Product Owners: SDKs - Web Frontend"
+          - "Product Owners: Projects - Project Creation"
+          - DDM
+          - "Product Owners: DDM"
+          - product-managers
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Mobile
+          - Team Mobile Cross Platform
+          - Team Mobile Core
+          - Product Owners
+      - ident: priscilawebdev
+        aliases:
+          - github.com/priscilawebdev
+        groups:
+          - app
+          - app-frontend
+          - Codeowners
+          - telemetry-experience
+          - owners-js-deps
+          - Engineering
+          - Staff
+          - client-infra
+      - ident: leeandher
+        aliases:
+          - github.com/leeandher
+        groups:
+          - app
+          - app-frontend
+          - Issues
+          - Hybrid-Cloud
+          - Engineering
+          - Staff
+      - ident: DominikB2014
+        aliases:
+          - github.com/DominikB2014
+        groups:
+          - app
+          - app-frontend
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: roggenkemper
+        aliases:
+          - github.com/roggenkemper
+        groups:
+          - app
+          - growth
+          - app-backend
+          - Issues
+          - Engineering
+          - Staff
+      - ident: MichaelSun48
+        aliases:
+          - github.com/MichaelSun48
+        groups:
+          - app
+          - Issues
+          - Engineering
+          - Staff
+      - ident: michellewzhang
+        aliases:
+          - github.com/michellewzhang
+        groups:
+          - app
+          - app-frontend
+          - Replay
+          - Replay Frontend
+          - Replay Backend
+          - Feedback
+          - Feedback Frontend
+          - Feedback Backend
+          - Engineering
+          - Staff
+      - ident: KevinL10
+        aliases:
+          - github.com/KevinL10
+        groups:
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: Abdkhan14
+        aliases:
+          - github.com/Abdkhan14
+        groups:
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: shruthilayaj
+        aliases:
+          - github.com/shruthilayaj
+        groups:
+          - app
+          - app-backend
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: cathteng
+        aliases:
+          - github.com/cathteng
+        groups:
+          - app
+          - app-backend
+          - Ecosystem
+          - Core Product, Foundations
+          - Engineering
+          - Staff
+      - ident: jas-kas
+        aliases:
+          - github.com/jas-kas
+        groups:
+          - app
+          - Emerging Technology
+          - "Product Owners: Replays"
+          - "Product Owners: User Feedback"
+          - product-managers
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: rachrwang
+        aliases:
+          - github.com/rachrwang
+        groups:
+          - app
+          - Issues
+          - "Product Owners: Releases"
+          - "Product Owners: Settings"
+          - "Product Owners: Alerts"
+          - "Product Owners: Settings - General"
+          - "Product Owners: Issues"
+          - "Product Owners: Footer"
+          - "Product Owners: Projects - Project Details"
+          - Core Product, Foundations
+          - product-managers
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: edwardgou-sentry
+        aliases:
+          - github.com/edwardgou-sentry
+        groups:
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: obostjancic
+        aliases:
+          - github.com/obostjancic
+        groups:
+          - app
+          - app-frontend
+          - telemetry-experience
+          - DDM
+          - Engineering
+          - Staff
+      - ident: Dhrumil-Sentry
+        aliases:
+          - github.com/Dhrumil-Sentry
+        groups:
+          - app
+          - Visibility
+          - Enterprise
+          - Performance
+          - discover-n-dashboards
+          - "Product Owners: Settings - Developer Settings"
+          - "Product Owners: Settings - Integrations"
+          - "Product Owners: Releases"
+          - "Product Owners: Settings - Members"
+          - "Product Owners: Settings - Auth"
+          - "Product Owners: Settings - Repositories"
+          - "Product Owners: Sign In"
+          - "Product Owners: Settings - Projects"
+          - "Product Owners: Alerts"
+          - "Product Owners: Settings - Teams"
+          - "Product Owners: Settings - Security & Privacy"
+          - "Product Owners: What's New"
+          - "Product Owners: APIs"
+          - Ecosystem
+          - Core Product, Foundations
+          - product-managers
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: jangjodi
+        aliases:
+          - github.com/jangjodi
+        groups:
+          - app
+          - app-frontend
+          - Issues
+          - Engineering
+          - Staff
+      - ident: colin-sentry
+        aliases:
+          - github.com/colin-sentry
+        groups:
+          - app
+          - Visibility
+          - Performance
+          - discover-n-dashboards
+          - Engineering
+          - Staff
+      - ident: shayna-ch
+        aliases:
+          - github.com/shayna-ch
+        groups:
+          - app
+          - Issues
+          - Engineering
+          - Staff
+      - ident: benvinegar
+        aliases:
+          - github.com/benvinegar
+        groups:
+          - growth
+          - Marketing
+          - marketing-maintainers
+          - GTM
+          - Engineering
+          - Staff
+      - ident: jmanhart
+        aliases:
+          - github.com/jmanhart
+        groups:
+          - growth
+          - Design
+          - Engineering
+          - Staff
+      - ident: trillville
+        aliases:
+          - github.com/trillville
+        groups:
+          - Analytics
+          - Data
+          - data admin
+          - Engineering Stewardship
+          - "Product Owners: Issues - Suggested Fix"
+          - Machine Learning & AI
+          - Engineering
+          - Staff
+          - infrastructure
+          - Product Owners
+      - ident: genorman
+        aliases:
+          - github.com/genorman
+        groups:
+          - Analytics
+          - Data
+          - BI
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: abennett87
+        aliases:
+          - github.com/abennett87
+        groups:
+          - Analytics
+          - Data
+          - BI
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: mcfarlanm
+        aliases:
+          - github.com/mcfarlanm
+        groups:
+          - Analytics
+          - Data
+          - BI
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: ndmanvar
+        aliases:
+          - github.com/ndmanvar
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: realkosty
+        aliases:
+          - github.com/realkosty
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: rpropst
+        aliases:
+          - github.com/rpropst
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: DeeVine
+        aliases:
+          - github.com/DeeVine
+        groups:
+          - COPS
+          - CSM
+          - GTM
+          - Staff
+      - ident: gywright
+        aliases:
+          - github.com/gywright
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: idosun
+        aliases:
+          - github.com/idosun
+        groups:
+          - COPS
+          - sales-eng
+          - CSM
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: JLuse
+        aliases:
+          - github.com/JLuse
+        groups:
+          - COPS
+          - support
+          - GTM
+          - Engineering
+          - Staff
+      - ident: thinkocapo
+        aliases:
+          - github.com/thinkocapo
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: cstavitsky
+        aliases:
+          - github.com/cstavitsky
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: katiemanuri
+        aliases:
+          - github.com/katiemanuri
+        groups:
+          - COPS
+          - CSM
+          - GTM
+          - Staff
+      - ident: Angelodaniel
+        aliases:
+          - github.com/Angelodaniel
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: dalnoki
+        aliases:
+          - github.com/dalnoki
+        groups:
+          - COPS
+          - support
+          - GTM
+          - Engineering
+          - Staff
+      - ident: dgbailey
+        aliases:
+          - github.com/dgbailey
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: Prithvirajkumar
+        aliases:
+          - github.com/Prithvirajkumar
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: masinette
+        aliases:
+          - github.com/masinette
+        groups:
+          - COPS
+          - support
+          - GTM
+          - Engineering
+          - Staff
+      - ident: t-h-man
+        aliases:
+          - github.com/t-h-man
+        groups:
+          - COPS
+          - support
+          - GTM
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: rodolfoBee
+        aliases:
+          - github.com/rodolfoBee
+        groups:
+          - COPS
+          - support
+          - GTM
+          - Engineering
+          - Staff
+      - ident: sentryadam0000345
+        aliases:
+          - github.com/sentryadam0000345
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: rohitkataria-sentryio
+        aliases:
+          - github.com/rohitkataria-sentryio
+        groups:
+          - COPS
+          - GTM
+          - Engineering
+          - Staff
+      - ident: souredoutlook
+        aliases:
+          - github.com/souredoutlook
+        groups:
+          - COPS
+          - support
+          - GTM
+          - "Product Owners: Help"
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: InterstellarStella
+        aliases:
+          - github.com/InterstellarStella
+        groups:
+          - COPS
+          - support
+          - GTM
+          - Engineering
+          - Staff
+      - ident: dachakra
+        aliases:
+          - github.com/dachakra
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: yuval-sentry
+        aliases:
+          - github.com/yuval-sentry
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: Kobby-Bawuah
+        aliases:
+          - github.com/Kobby-Bawuah
+        groups:
+          - COPS
+          - support
+          - GTM
+          - Engineering
+          - Staff
+      - ident: sdzhong
+        aliases:
+          - github.com/sdzhong
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: reneedoubleu
+        aliases:
+          - github.com/reneedoubleu
+        groups:
+          - COPS
+          - CSM
+          - GTM
+          - Staff
+      - ident: Fwang36
+        aliases:
+          - github.com/Fwang36
+        groups:
+          - COPS
+          - support
+          - GTM
+          - Engineering
+          - Staff
+      - ident: michaelchai-sentry
+        aliases:
+          - github.com/michaelchai-sentry
+        groups:
+          - COPS
+          - CSM
+          - GTM
+          - Staff
+      - ident: kerenkhatiwada
+        aliases:
+          - github.com/kerenkhatiwada
+        groups:
+          - COPS
+          - support
+          - GTM
+          - Engineering
+          - Staff
+      - ident: ReneGreen27
+        aliases:
+          - github.com/ReneGreen27
+        groups:
+          - COPS
+          - support
+          - GTM
+          - Engineering
+          - Staff
+      - ident: kpujjigit
+        aliases:
+          - github.com/kpujjigit
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: gid-sentry
+        aliases:
+          - github.com/gid-sentry
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: serglom21
+        aliases:
+          - github.com/serglom21
+        groups:
+          - COPS
+          - sales-eng
+          - GTM
+          - solutions-eng
+          - Engineering
+          - Staff
+      - ident: irodrigues-git
+        aliases:
+          - github.com/irodrigues-git
+        groups:
+          - COPS
+          - CSM
+          - GTM
+          - Staff
+      - ident: scottchaykin
+        aliases:
+          - github.com/scottchaykin
+        groups:
+          - COPS
+          - CSM
+          - GTM
+          - Staff
+      - ident: vtoklu
+        aliases:
+          - github.com/vtoklu
+        groups:
+          - COPS
+          - CSM
+          - GTM
+          - Staff
+      - ident: shellyvo
+        aliases:
+          - github.com/shellyvo
+        groups:
+          - COPS
+          - support
+          - GTM
+          - Staff
+      - ident: drguthals
+        aliases:
+          - github.com/drguthals
+        groups:
+          - Marketing
+          - marketing-maintainers
+          - devrel
+          - GTM
+          - Staff
+      - ident: rahulchhabria
+        aliases:
+          - github.com/rahulchhabria
+        groups:
+          - Marketing
+          - marketing-maintainers
+          - GTM
+          - Marketing Engineer
+          - Staff
+      - ident: stevenplewis
+        aliases:
+          - github.com/stevenplewis
+        groups:
+          - Marketing
+          - Design
+          - marketing-maintainers
+          - GTM
+          - Staff
+      - ident: nikolovlazar
+        aliases:
+          - github.com/nikolovlazar
+        groups:
+          - Marketing
+          - marketing-maintainers
+          - devrel
+          - GTM
+          - Engineering
+          - Staff
+      - ident: asblumen
+        aliases:
+          - github.com/asblumen
+        groups:
+          - Marketing
+          - marketing-maintainers
+          - GTM
+          - Staff
+      - ident: vivianyentran
+        aliases:
+          - github.com/vivianyentran
+        groups:
+          - Marketing
+          - Product Marketing
+          - Docs
+          - GTM
+          - "Product Owners: Docs"
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: lizokm
+        aliases:
+          - github.com/lizokm
+        groups:
+          - Marketing
+          - Product Marketing
+          - Docs
+          - GTM
+          - "Product Owners: Docs"
+          - product-managers
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: whitep4nth3r
+        aliases:
+          - github.com/whitep4nth3r
+        groups:
+          - Marketing
+          - marketing-maintainers
+          - devrel
+          - GTM
+          - Engineering
+          - Staff
+      - ident: elijames-codecov
+        aliases:
+          - github.com/elijames-codecov
+        groups:
+          - Marketing
+          - marketing-maintainers
+          - GTM
+          - Staff
+      - ident: dorothymlee
+        aliases:
+          - github.com/dorothymlee
+        groups:
+          - Marketing
+          - marketing-maintainers
+          - GTM
+          - Staff
+      - ident: angelajiang13
+        aliases:
+          - github.com/angelajiang13
+        groups:
+          - Marketing
+          - GTM
+          - Staff
+      - ident: pevensentry
+        aliases:
+          - github.com/pevensentry
+        groups:
+          - Marketing
+          - Product Marketing
+          - marketing-maintainers
+          - GTM
+          - Staff
+      - ident: MattSentry
+        aliases:
+          - github.com/MattSentry
+        groups:
+          - Marketing
+          - GTM
+          - Staff
+      - ident: ckj
+        aliases:
+          - github.com/ckj
+        groups:
+          - Design
+          - GTM
+          - Engineering
+          - Staff
+      - ident: vuluongj20
+        aliases:
+          - github.com/vuluongj20
+        groups:
+          - Design
+          - Core Product, Foundations
+          - Engineering
+          - Staff
+      - ident: onewland
+        aliases:
+          - github.com/onewland
+        groups:
+          - sns
+          - Codeowners
+          - owners-snuba
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: nachivrn
+        aliases:
+          - github.com/nachivrn
+        groups:
+          - sns
+          - Codeowners
+          - owners-snuba
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: mcannizz
+        aliases:
+          - github.com/mcannizz
+        groups:
+          - sns
+          - Codeowners
+          - owners-snuba
+          - DDM
+          - Engineering
+          - Staff
+          - infrastructure
+          - Release Approvers
+      - ident: volokluev
+        aliases:
+          - github.com/volokluev
+        groups:
+          - sns
+          - Codeowners
+          - owners-snuba
+          - snuba-maintainers
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: john-z-yang
+        aliases:
+          - github.com/john-z-yang
+        groups:
+          - sns
+          - Codeowners
+          - owners-snuba
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: enochtangg
+        aliases:
+          - github.com/enochtangg
+        groups:
+          - sns
+          - Codeowners
+          - owners-snuba
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: kylemumma
+        aliases:
+          - github.com/kylemumma
+        groups:
+          - sns
+          - Codeowners
+          - owners-snuba
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: ayirr7
+        aliases:
+          - github.com/ayirr7
+        groups:
+          - sns
+          - Codeowners
+          - owners-snuba
+          - DDM
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: nikhars
+        aliases:
+          - github.com/nikhars
+        groups:
+          - sns
+          - Codeowners
+          - owners-snuba
+          - snuba-maintainers
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: xurui-c
+        aliases:
+          - github.com/xurui-c
+        groups:
+          - sns
+          - Codeowners
+          - owners-snuba
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: antonpirker
+        aliases:
+          - github.com/antonpirker
+        groups:
+          - Codeowners
+          - owners-python-sdk
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Backend
+      - ident: Dav1dde
+        aliases:
+          - github.com/Dav1dde
+        groups:
+          - Codeowners
+          - Ingest
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: Swatinem
+        aliases:
+          - github.com/Swatinem
+        groups:
+          - Codeowners
+          - Processing
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+      - ident: bukzor
+        aliases:
+          - github.com/bukzor
+        groups:
+          - Codeowners
+          - owners-sentry-dev
+          - dev-infra
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: jernejstrasner
+        aliases:
+          - github.com/jernejstrasner
+        groups:
+          - Codeowners
+          - Ingest
+          - Processing
+          - "Product Owners: Settings - Relay"
+          - "Product Owners: SDKs - Native"
+          - "Product Owners: Issues - Source Maps"
+          - DDM
+          - "Product Owners: Ingestion and Filtering"
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+          - Release Approvers
+          - client-infra admin
+          - Product Owners
+      - ident: markushi
         aliases:
           - github.com/markushi
         groups:
-          - Mobile SDK Core
-          - Mobile SDK
-
-          
+          - Codeowners
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Mobile
+          - Team Mobile Core
+      - ident: olksdr
+        aliases:
+          - github.com/olksdr
+        groups:
+          - Codeowners
+          - Ingest
+          - "Product Owners: Settings - Relay"
+          - "Product Owners: Ingestion and Filtering"
+          - Engineering
+          - Staff
+          - infrastructure
+          - Product Owners
+      - ident: anonrig
+        aliases:
+          - github.com/anonrig
+        groups:
+          - Codeowners
+          - Processing
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+      - ident: kahest
+        aliases:
+          - github.com/kahest
+        groups:
+          - Codeowners
+          - "Product Owners: SDKs - Native"
+          - "Product Owners: SDKs - Mobile"
+          - "Product Owners: Issues - Source Maps"
+          - SDK Foundation
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Mobile
+          - Release Approvers
+          - client-infra admin
+          - Team Mobile Cross Platform
+          - Team Mobile Core
+          - Product Owners
+      - ident: nhsiehgit
+        aliases:
+          - github.com/nhsiehgit
+        groups:
+          - Codeowners
+          - Hybrid-Cloud
+          - Core Product, Foundations
+          - Alerts & Notifications
+          - Engineering
+          - Staff
+      - ident: sl0thentr0py
+        aliases:
+          - github.com/sl0thentr0py
+        groups:
+          - Codeowners
+          - owners-python-sdk
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Backend
+      - ident: loewenheim
+        aliases:
+          - github.com/loewenheim
+        groups:
+          - Codeowners
+          - Processing
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+      - ident: joshuarli
+        aliases:
+          - github.com/joshuarli
+        groups:
+          - Codeowners
+          - single-tenant
+          - owners-python-build
+          - owners-sentry-dev
+          - dev-infra
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: bitsandfoxes
+        aliases:
+          - github.com/bitsandfoxes
+        groups:
+          - Codeowners
+          - Engineering
+          - Staff
+          - client-infra
+          - SDKs
+          - Team Web SDK Backend
+      - ident: iker-barriocanal
+        aliases:
+          - github.com/iker-barriocanal
+        groups:
+          - Codeowners
+          - Ingest
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+      - ident: iamrajjoshi
+        aliases:
+          - github.com/iamrajjoshi
+        groups:
+          - Codeowners
+          - owners-api
+          - Ecosystem
+          - Core Product, Foundations
+          - Engineering
+          - Staff
+      - ident: isabellaenriquez
+        aliases:
+          - github.com/isabellaenriquez
+        groups:
+          - Codeowners
+          - Revenue
+          - owners-api
+          - Engineering
+          - Staff
+      - ident: schew2381
+        aliases:
+          - github.com/schew2381
+        groups:
+          - Codeowners
+          - owners-api
+          - Core Product, Foundations
+          - Alerts & Notifications
+          - Engineering
+          - Staff
+      - ident: gavin-zee
+        aliases:
+          - github.com/gavin-zee
+        groups:
+          - Codeowners
+          - owners-legal
+          - Engineering
+          - Staff
+      - ident: asottile-sentry
+        aliases:
+          - github.com/asottile-sentry
+        groups:
+          - Codeowners
+          - owners-python-build
+          - owners-sentry-dev
+          - dev-infra
+          - python-typing
+          - Engineering Stewardship
+          - Engineering
+          - Staff
+          - infrastructure
+          - releng
+      - ident: chrissentry
+        aliases:
+          - github.com/chrissentry
+        groups:
+          - Codeowners
+          - owners-legal
+          - Compliance
+          - Engineering
+          - Staff
+      - ident: sentaur-athena
+        aliases:
+          - github.com/sentaur-athena
+        groups:
+          - Codeowners
+          - owners-api
+          - Ecosystem
+          - Core Product, Foundations
+          - Engineering
+          - Staff
+      - ident: chadwhitacre
+        aliases:
+          - github.com/chadwhitacre
+        groups:
+          - single-tenant
+          - License
+          - Open Source
+          - Test Team for OSS Automations
+          - "Product Owners: Org Relocation"
+          - "Product Owners: Unknown"
+          - "Product Owners: Other"
+          - Engineering
+          - Staff
+          - infrastructure
+          - releng
+          - Release Approvers
+          - Product Owners
+      - ident: cindy1335
+        aliases:
+          - github.com/cindy1335
+        groups:
+          - Data
+          - BI
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: andrewshie-sentry
+        aliases:
+          - github.com/andrewshie-sentry
+        groups:
+          - Data
+          - BI
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: pullepuvinay
+        aliases:
+          - github.com/pullepuvinay
+        groups:
+          - Data
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: jingding123
+        aliases:
+          - github.com/jingding123
+        groups:
+          - Data
+          - BI
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: azaslavsky
+        aliases:
+          - github.com/azaslavsky
+        groups:
+          - dev-infra
+          - Open Source
+          - Engineering
+          - Staff
+          - infrastructure
+          - Release Approvers
+          - Product Owners
+      - ident: IanWoodard
+        aliases:
+          - github.com/IanWoodard
+        groups:
+          - dev-infra
+          - TACOS-gha Dev
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: hubertdeng123
+        aliases:
+          - github.com/hubertdeng123
+        groups:
+          - dev-infra
+          - Open Source
+          - Engineering
+          - Staff
+          - infrastructure
+          - Release Approvers
+          - Product Owners
+      - ident: nikhil-barthwal-sentry
+        aliases:
+          - github.com/nikhil-barthwal-sentry
+        groups:
+          - dev-infra
+          - Engineering
+          - Staff
+          - infrastructure
+      - ident: corps
+        aliases:
+          - github.com/corps
+        groups:
+          - Revenue
+          - Hybrid-Cloud
+          - Machine Learning & AI
+          - Engineering
+          - Staff
+      - ident: vbro
+        aliases:
+          - github.com/vbro
+        groups:
+          - Revenue
+          - Hybrid-Cloud
+          - Engineering
+          - Staff
+      - ident: mbauer404
+        aliases:
+          - github.com/mbauer404
+        groups:
+          - Revenue
+          - Engineering
+          - Staff
+      - ident: brendanhsentry
+        aliases:
+          - github.com/brendanhsentry
+        groups:
+          - Revenue
+          - Engineering
+          - Staff
+      - ident: getsentry-bot
+        aliases:
+          - github.com/getsentry-bot
+        groups:
+          - release-bot
+      - ident: armcknight
+        aliases:
+          - github.com/armcknight
+        groups:
+          - Profiling
+          - Engineering
+          - Staff
+      - ident: viglia
+        aliases:
+          - github.com/viglia
+        groups:
+          - Profiling
+          - Engineering
+          - Staff
+      - ident: bruno-garcia
+        aliases:
+          - github.com/bruno-garcia
+        groups:
+          - Emerging Technology
+          - Replay
+          - Replay Frontend
+          - Replay Backend
+          - Replay SDK
+          - "Product Owners: Replays"
+          - "Product Owners: User Feedback"
+          - Feedback
+          - Feedback SDK
+          - Feedback Frontend
+          - Feedback Backend
+          - Replay SDK - Web
+          - Replay SDK - Mobile
+          - Engineering
+          - Staff
+          - client-infra
+          - Release Approvers
+          - client-infra admin
+          - Product Owners
+      - ident: mydea
+        aliases:
+          - github.com/mydea
+        groups:
+          - Replay
+          - Replay SDK
+          - Feedback
+          - Feedback SDK
+          - Replay SDK - Web
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Frontend
+      - ident: romtsn
+        aliases:
+          - github.com/romtsn
+        groups:
+          - Replay
+          - Replay SDK
+          - Feedback
+          - Replay SDK - Mobile
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Mobile
+          - Team Mobile Core
+      - ident: Lms24
+        aliases:
+          - github.com/Lms24
+        groups:
+          - Replay
+          - Replay SDK
+          - Feedback
+          - Feedback SDK
+          - Replay SDK - Web
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Frontend
+      - ident: brustolin
+        aliases:
+          - github.com/brustolin
+        groups:
+          - Replay
+          - Replay SDK
+          - Feedback
+          - Replay SDK - Mobile
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Mobile
+          - Team Mobile Core
+      - ident: c298lee
+        aliases:
+          - github.com/c298lee
+        groups:
+          - Replay
+          - Replay Frontend
+          - Replay Backend
+          - Replay SDK
+          - Feedback
+          - Feedback SDK
+          - Feedback Frontend
+          - Feedback Backend
+          - Replay SDK - Web
+          - Engineering
+          - Staff
+      - ident: aliu39
+        aliases:
+          - github.com/aliu39
+        groups:
+          - Replay
+          - Replay Frontend
+          - Replay Backend
+          - Feedback
+          - Feedback Frontend
+          - Feedback Backend
+          - Engineering
+          - Staff
+      - ident: stephanie-anderson
+        aliases:
+          - github.com/stephanie-anderson
+        groups:
+          - "Product Owners: SDKs - Web Backend"
+          - "Product Owners: SDKs - Web Frontend"
+          - "Product Owners: Issues - Source Maps"
+          - SDK Foundation
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Frontend
+          - Release Approvers
+          - client-infra admin
+          - Team Web SDK Backend
+          - Product Owners
+      - ident: smeubank
+        aliases:
+          - github.com/smeubank
+        groups:
+          - "Product Owners: SDKs - Web Backend"
+          - "Product Owners: SDKs - Web Frontend"
+          - "Product Owners: Issues - Source Maps"
+          - product-managers
+          - SDK Foundation
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Mobile
+          - Team Web SDK Frontend
+          - Team Web SDK Backend
+          - Team Mobile Cross Platform
+          - Team Mobile Core
+          - Product Owners
+      - ident: gauthamcs
+        aliases:
+          - github.com/gauthamcs
+        groups:
+          - "Product Owners: What's New"
+          - product-managers
+          - Engineering
+          - Staff
+          - Product Owners
+      - ident: phonziemx
+        aliases:
+          - github.com/phonziemx
+        groups:
+          - it
+          - Engineering
+          - Staff
+      - ident: DIgnatov89
+        aliases:
+          - github.com/DIgnatov89
+        groups:
+          - it
+          - Engineering
+          - Staff
+      - ident: ram-senth
+        aliases:
+          - github.com/ram-senth
+        groups:
+          - Machine Learning & AI
+          - Engineering
+          - Staff
+      - ident: jennmueng
+        aliases:
+          - github.com/jennmueng
+        groups:
+          - Machine Learning & AI
+          - Engineering
+          - Staff
+      - ident: saponifi3d
+        aliases:
+          - github.com/saponifi3d
+        groups:
+          - Core Product, Foundations
+          - Alerts & Notifications
+          - Engineering
+          - Staff
+      - ident: ceorourke
+        aliases:
+          - github.com/ceorourke
+        groups:
+          - Core Product, Foundations
+          - Alerts & Notifications
+          - Engineering
+          - Staff
+      - ident: BYK
+        aliases:
+          - github.com/BYK
+        groups:
+          - OCPO
+      - ident: HazAT
+        aliases:
+          - github.com/HazAT
+        groups:
+          - Engineering
+          - Staff
+          - infrastructure
+          - client-infra
+          - SDKs
+          - javascript
+          - releng
+          - Team Mobile
+          - Team Web SDK Frontend
+          - Release Approvers
+          - client-infra admin
+          - Team Web SDK Backend
+          - Team Mobile Cross Platform
+          - Team Mobile Core
+          - Product Owners
+          - Gib Potato
+      - ident: philipphofmann
+        aliases:
+          - github.com/philipphofmann
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Mobile
+          - Team Mobile Core
+      - ident: adinauer
+        aliases:
+          - github.com/adinauer
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Backend
+      - ident: cleptric
+        aliases:
+          - github.com/cleptric
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Backend
+          - Gib Potato
+      - ident: szokeasaurusrex
+        aliases:
+          - github.com/szokeasaurusrex
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Backend
+      - ident: lforst
+        aliases:
+          - github.com/lforst
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Frontend
+      - ident: stefanosiano
+        aliases:
+          - github.com/stefanosiano
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Mobile
+          - Team Mobile Core
+      - ident: chargome
+        aliases:
+          - github.com/chargome
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Frontend
+      - ident: buenaflor
+        aliases:
+          - github.com/buenaflor
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Mobile
+          - Team Mobile Cross Platform
+          - Team Mobile Core
+      - ident: nicohrubec
+        aliases:
+          - github.com/nicohrubec
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Frontend
+      - ident: krystofwoldrich
+        aliases:
+          - github.com/krystofwoldrich
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Mobile
+          - Team Mobile Cross Platform
+      - ident: s1gr1d
+        aliases:
+          - github.com/s1gr1d
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Frontend
+      - ident: shashjar
+        aliases:
+          - github.com/shashjar
+        groups:
+          - Engineering
+          - Staff
+      - ident: VladAtSentry
+        aliases:
+          - github.com/VladAtSentry
+        groups:
+          - Engineering
+          - Staff
+      - ident: getsentry-release
+        aliases:
+          - github.com/getsentry-release
+        groups:
+          - Engineering
+          - Staff
+      - ident: eliatcodecov
+        aliases:
+          - github.com/eliatcodecov
+        groups:
+          - Engineering
+          - Staff
+      - ident: trent-codecov
+        aliases:
+          - github.com/trent-codecov
+        groups:
+          - Engineering
+          - Staff
+      - ident: thomasrockhu-codecov
+        aliases:
+          - github.com/thomasrockhu-codecov
+        groups:
+          - Engineering
+          - Staff
+      - ident: giovanni-guidini
+        aliases:
+          - github.com/giovanni-guidini
+        groups:
+          - Engineering
+          - Staff
+      - ident: nicholas-codecov
+        aliases:
+          - github.com/nicholas-codecov
+        groups:
+          - Engineering
+          - Staff
+      - ident: katia-sentry
+        aliases:
+          - github.com/katia-sentry
+        groups:
+          - Engineering
+          - Staff
+      - ident: sentrivana
+        aliases:
+          - github.com/sentrivana
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Backend
+      - ident: joseph-sentry
+        aliases:
+          - github.com/joseph-sentry
+        groups:
+          - Engineering
+          - Staff
+      - ident: spalmurray-codecov
+        aliases:
+          - github.com/spalmurray-codecov
+        groups:
+          - Engineering
+          - Staff
+      - ident: andreiborza
+        aliases:
+          - github.com/andreiborza
+        groups:
+          - Engineering
+          - Staff
+          - client-infra
+          - Team Web SDK Frontend
